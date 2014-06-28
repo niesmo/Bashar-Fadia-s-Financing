@@ -1,0 +1,23 @@
+Just copy the folder in your server
+
+Modify the config.php in the config folder accordingly
+	-> $config['base_url']	= 'http://localhost/B&F';
+
+Set your credentials for your MySQL in the database.php in config folder
+	-> $db['default']['hostname'] = 'localhost';
+	-> $db['default']['username'] = 'USERNAME';
+	-> $db['default']['password'] = 'PASSWORD';
+	-> $db['default']['database'] = 'DB_NAME';
+
+Create a database according to the schema described below:
+
+CREATE TABLE `user` (
+   `userId` int(11) NOT NULL AUTO_INCREMENT,
+   `username` varchar(255) NOT NULL,
+   `fullName` varchar(255) NOT NULL,
+   `avatar` varchar(255) NOT NULL,
+   PRIMARY KEY (`userId`)
+ );
+
+ hope for the best :)
+ Created in about 3 hours.
