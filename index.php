@@ -56,7 +56,7 @@ if (defined('ENVIRONMENT'))
  * as this file.
  *
  */
-	$system_path = 'C:\Program Files (x86)\Zend\Apache2\web_lib\CI_system';
+	$system_path = 'CI_system';
 
 /*
  *---------------------------------------------------------------
